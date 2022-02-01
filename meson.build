@@ -6,7 +6,6 @@ project('usematplotlibcpp', 'cpp',
 
 cmake = import('cmake')
 
-tensorflow_dep = dependency('tensorflow')
 matplotlibcpp_proj = cmake.subproject('matplotlibcpp')
 matplotlibcpp_lib = matplotlibcpp_proj.dependency('matplotlib_cpp')
 
